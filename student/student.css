@@ -1,0 +1,232 @@
+
+
+/* Center form container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #121c32, #1a2a4a);
+    background-size: 400% 400%;
+    font-family: Arial, sans-serif;
+}
+
+/* Card style */
+.register-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Card heading */
+.register-card h2 {
+    margin-bottom: 20px;
+    color: #0d47a1;
+}
+
+/* Label style */
+.register-card label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Dropdown style */
+.register-card select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+/* Submit button */
+.register-card button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0e5be9;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-card button:hover {
+    background-color: #2592c8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.instructor-card {
+    border-radius: 15px;
+    overflow: hidden;
+    
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.instructor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.instructor-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.instructor-card .card-body {
+    padding: 20px;
+}
+
+.instructor-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.instructor-card .card-subtitle {
+    font-size: 1rem;
+}
+
+.instructor-card .card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+
+
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.register-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+.register-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-card label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.register-card select,
+.register-card textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-card button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-card button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+.inquiry-container {
+    margin: 30px auto;
+    max-width: 900px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.inquiry-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inquiry-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inquiry-table th, .inquiry-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.inquiry-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.inquiry-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.inquiry-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.no-inquiry {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+}
+
+span.pending {
+    color: orange;
+    font-weight: bold;
+}
+
+span.resolved {
+    color: green;
+    font-weight: bold;
+}
